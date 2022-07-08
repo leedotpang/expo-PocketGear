@@ -1,9 +1,8 @@
 {
-  "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
+    "start": "expo start --dev-client",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
     "web": "expo start --web",
     "eject": "expo eject",
     "typescript": "tsc --noEmit",
@@ -24,13 +23,15 @@
     "lodash": "4.17.21",
     "react": "17.0.2",
     "react-dom": "17.0.2",
-    "react-native": "0.68.1",
+    "react-native": "0.68.2",
     "react-native-gesture-handler": "~2.2.0",
     "react-native-pager-view": "5.4.15",
     "react-native-safe-area-context": "4.2.4",
     "react-native-screens": "~3.11.1",
     "react-native-tab-view": "3.1.1",
-    "react-native-web": "0.17.1"
+    "react-native-web": "0.17.1",
+    "expo-splash-screen": "~0.15.1",
+    "expo-status-bar": "~1.3.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
@@ -49,5 +50,7 @@
   "jest": {
     "preset": "jest-expo",
     "collectCoverage": true
-  }
+  },
+  "name": "pokedex-local",
+  "version": "1.0.0"
 }
