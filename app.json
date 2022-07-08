@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "PocketGear",
-    "slug": "pocket-gear",
+    "name": "Lokedex",
+    "slug": "lokedex",
     "privacy": "public",
     "platforms": [
       "ios",
